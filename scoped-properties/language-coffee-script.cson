@@ -15,4 +15,4 @@
         | .*[-=]>\\s*$
         | .*[\\{\\[]\\s*$
       )'
-    'decreaseIndentPattern': '^\\s*(\\}|\\]|else|catch|finally)$'
+    'decreaseIndentPattern': '^\\s*(\\}|\\]|else|catch|finally|else\\s+if\\s+\\S.*)$'
